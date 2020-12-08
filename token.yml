@@ -8,7 +8,7 @@
         method: POST
         headers:
           Content-Type: "application/json"
-        body: '{"username": {{ username }}, "password": {{ password }} }'
+        body: '{"username": {{ mc_user }}, "password": {{ mc_pass }} }'
         return_content: yes
       register: token
 
@@ -25,7 +25,7 @@
         url: https://mc.hosted.endpointprotector.com/api/login/
         method: POST
         headers:
-        Content-Type: "application/json"
+          Content-Type: "application/json"
         Authorization: "{{ (token.content | from_json).token }}"
         body: '{"username": {{ mc_user }}, "password": {{ mc_pass }}}'
         return_content: yes
