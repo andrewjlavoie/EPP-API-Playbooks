@@ -1,8 +1,11 @@
+---
 - name: get 200
   hosts: localhost
   tasks:
   - name: debug
-    debug: "{{ inventory_hostname }}"
+    debug:
+      msg: "{{ inventory_hostname }}"
+
   - name: hello world
     uri:
       url: https://mc.hosted.endpointprotector.com/api/
