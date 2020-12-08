@@ -7,9 +7,12 @@
         url: https://mc.hosted.endpointprotector.com/api/login
         method: POST
         validate_certs: no
+        body_format: json
         headers:
           Content-Type: "application/json"
-        body: '{"username": {{ mc_user }}, "password": {{ mc_pass }} }'
+        body:
+          username: "{{ mc_user }}"
+          password: "{{ mc_pass }}"
         return_content: yes
       register: token
 
@@ -26,9 +29,12 @@
         url: https://mc.hosted.endpointprotector.com/api/login/
         method: POST
         validate_certs: no
+        body_format: json
         headers:
           Content-Type: "application/json"
         Authorization: "{{ (token.content | from_json).token }}"
-        body: '{"username": {{ mc_user }}, "password": {{ mc_pass }}}'
+        body:
+          username: "{{ mc_user }}"
+          password: "{{ mc_pass }}"
         return_content: yes
       register: webpage
