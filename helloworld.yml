@@ -5,7 +5,7 @@
     debug: "{{ inventory_hostname }}"
   - name: hello world
     uri:
-      url: "{{ inventory_hostname }}"
+      url: https://mc.hosted.endpointprotector.com/api/
       validate_certs: no
       method: GET
       body_format: json
