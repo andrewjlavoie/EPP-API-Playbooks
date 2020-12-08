@@ -1,0 +1,11 @@
+- name: get 200
+  hosts: localhost
+  tasks:
+  - name: debug
+    debug: "{{ inventory_hostname }}"
+  - name: hello world
+    uri:
+      url: {{ inventory_hostname }}
+      validate_certs: no
+      method: GET
+      body_format: json
