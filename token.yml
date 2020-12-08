@@ -24,17 +24,17 @@
       debug:
         msg: "{{ (token.content | from_json).token }}"
 
-    - name: Check that LOGIN returns a status 200
+    - name: Get Sys Info
       uri:
-        url: https://mc.hosted.endpointprotector.com/api/login/
-        method: POST
+        url: https://mc.hosted.endpointprotector.com/api/sysinfo
+        method: GET
         validate_certs: no
         body_format: json
         headers:
-          Content-Type: "application/json"
           Authorization: "JWT {{ (token.content | from_json).token }}"
-        body:
-          username: "{{ mc_user }}"
-          password: "{{ mc_pass }}"
         return_content: yes
       register: webpage
+
+    - name: show webpage
+      debug:
+        msg: webpage
