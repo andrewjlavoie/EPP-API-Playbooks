@@ -32,7 +32,7 @@
         body_format: json
         headers:
           Content-Type: "application/json"
-        Authorization: "JWT {{ (token.content | from_json).token }}"
+          Authorization: "JWT {{ (token.content | from_json).token }}"
         body:
           username: "{{ mc_user }}"
           password: "{{ mc_pass }}"
