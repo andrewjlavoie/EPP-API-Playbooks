@@ -6,6 +6,7 @@
       uri:
         url: https://mc.hosted.endpointprotector.com/api/login
         method: POST
+        validate_certs: no
         headers:
           Content-Type: "application/json"
         body: '{"username": {{ mc_user }}, "password": {{ mc_pass }} }'
@@ -24,6 +25,7 @@
       uri:
         url: https://mc.hosted.endpointprotector.com/api/login/
         method: POST
+        validate_certs: no
         headers:
           Content-Type: "application/json"
         Authorization: "{{ (token.content | from_json).token }}"
