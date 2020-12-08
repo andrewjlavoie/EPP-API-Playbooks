@@ -31,7 +31,7 @@
         validate_certs: no
         body_format: json
         headers:
-          Authorization: "JWT Token {{ (token.content | from_json).token }}"
+          Authorization: "Bearer {{ (token.content | from_json).token }}"
         return_content: yes
       register: webpage
 
