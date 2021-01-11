@@ -1,9 +1,9 @@
 ---
 - name: Sync Blacklist to EPP from Github
-  hosts: localhost
   tasks:
     - name: Ensure repo is downloaded
       git:
         repo: https://github.com/andrewjlavoie/EPP-API-Playbooks
-        dest: ~/
+        clone: Yes
+        dest: ~/epp-api/
 
