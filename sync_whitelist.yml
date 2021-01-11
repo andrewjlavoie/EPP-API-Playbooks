@@ -9,6 +9,4 @@
         dest: ~/epp-api/
 
     - name: Python Script
-      script: ~/epp-api/sync_whitelists.py
-      args:
-        executable: python3
+      command: python3 ~/epp-api/sync_whitelists.py
