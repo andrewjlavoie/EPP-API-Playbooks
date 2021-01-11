@@ -21,10 +21,10 @@ def post_ndlp_domain_whitelist_group(base_url, jwt, name, desc, items):
     )
     return response.json()
 
-def patch_ndlp_domain_whitelist_group(base_url, jwt, ndlp_id, name, desc, items):
+def patch_ndlp_domain_whitelist_group(base_url, jwt, name, desc, items):
     '''Updates an existing Ndlp Domain Whitelist Group'''
     response = requests.patch(
-        base_url+'/api/ndlpdomainwhitelistgroup/'+ndlp_id,
+        base_url+'/api/ndlpdomainwhitelistgroup,
         headers={'Authorization': jwt},
         json={
             'name': name,
