@@ -6,6 +6,7 @@
       git:
         repo: https://github.com/andrewjlavoie/EPP-API-Playbooks
         clone: Yes
+        force: Yes
         dest: ~/epp-api/
 
     - name: Python Script
