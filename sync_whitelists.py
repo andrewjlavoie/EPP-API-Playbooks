@@ -4,6 +4,7 @@ This script pulls an ini list from github to use as a whitelist for CAP
 '''
 import configparser
 import json
+import os
 import requests
 
 from epp_auth import *
@@ -11,7 +12,7 @@ from epp_ndlp_doman_whitelist_group import get_name_id_map, patch_ndlp_domain_wh
 
 if __name__ == "__main__":
     epp_api_conf = configparser.ConfigParser()
-    epp_api_conf.read('./epp_config.ini')
+    epp_api_conf.read(os.getcwd()+'epp_config.ini')
 
     #grab whitelist from github
     raw_wl_content = requests.get(epp_api_conf['policy']['whitelist_url'])
