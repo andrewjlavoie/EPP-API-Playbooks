@@ -1,5 +1,6 @@
 ---
 - name: Sync Blacklist to EPP from Github
+  hosts: all
   tasks:
     - name: Ensure repo is downloaded
       git:
