@@ -1,0 +1,6 @@
+---
+#How to use the auth 
+    - name: test
+      uri:
+        headers:
+          Authorization: "Bearer {{ (token.content | from_json).token }}"
