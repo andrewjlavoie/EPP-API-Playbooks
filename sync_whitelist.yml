@@ -11,3 +11,5 @@
 
     - name: Python Script
       command: python3 ~/epp-api/sync_whitelists.py
+      args:
+        chdir: ~/
