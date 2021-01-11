@@ -23,8 +23,9 @@ def post_ndlp_domain_whitelist_group(base_url, jwt, name, desc, items):
 
 def patch_ndlp_domain_whitelist_group(base_url, jwt, name, desc, items):
     '''Updates an existing Ndlp Domain Whitelist Group'''
+    '''items expects a list of dicts {'word':'site'}'''
     response = requests.patch(
-        base_url+'/api/ndlpdomainwhitelistgroup,
+        base_url+'/api/ndlpdomainwhitelistgroup',
         headers={'Authorization': jwt},
         json={
             'name': name,
