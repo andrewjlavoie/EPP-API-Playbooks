@@ -1,0 +1,3 @@
+{
+    "api-test-dpi-whitelist": ["*cososys.com", "*google.com"]
+}
