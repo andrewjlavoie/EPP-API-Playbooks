@@ -1,0 +1,2912 @@
+{
+  "id": 2,
+  "name": "gui-test-win-block-standard",
+  "description": "gui-test-win-block-standard",
+  "priority": 2,
+  "os_type": 1,
+  "control_devices": 1,
+  "control_online": 1,
+  "control_clipboard": 1,
+  "control_paste": 1,
+  "control_paste_extended": 1,
+  "control_printscreen": 1,
+  "control_case": 1,
+  "control_words": 1,
+  "action": 2,
+  "status": 1,
+  "control_ns": 1,
+  "control_ts": 1,
+  "control_printers": 1,
+  "hide_client_notifications": 0,
+  "policy_kind": 0,
+  "file_size_threshold": 12,
+  "threshold": 100,
+  "global_threshold": 1,
+  "deleted": null,
+  "cf_file_type_blacklists": [
+    {
+      "id": 1,
+      "cf_file_type_group": {
+        "id": 1
+      }
+    },
+    {
+      "id": 2,
+      "cf_file_type_group": {
+        "id": 1
+      }
+    },
+    {
+      "id": 3,
+      "cf_file_type_group": {
+        "id": 2
+      }
+    },
+    {
+      "id": 4,
+      "cf_file_type_group": {
+        "id": 1
+      }
+    },
+    {
+      "id": 5,
+      "cf_file_type_group": {
+        "id": 1
+      }
+    },
+    {
+      "id": 7,
+      "cf_file_type_group": {
+        "id": 1
+      }
+    },
+    {
+      "id": 9,
+      "cf_file_type_group": {
+        "id": 1
+      }
+    },
+    {
+      "id": 14,
+      "cf_file_type_group": {
+        "id": 2
+      }
+    },
+    {
+      "id": 22,
+      "cf_file_type_group": {
+        "id": 3
+      }
+    },
+    {
+      "id": 23,
+      "cf_file_type_group": {
+        "id": 1
+      }
+    },
+    {
+      "id": 24,
+      "cf_file_type_group": {
+        "id": 1
+      }
+    },
+    {
+      "id": 25,
+      "cf_file_type_group": {
+        "id": 1
+      }
+    },
+    {
+      "id": 26,
+      "cf_file_type_group": {
+        "id": 2
+      }
+    },
+    {
+      "id": 27,
+      "cf_file_type_group": {
+        "id": 2
+      }
+    },
+    {
+      "id": 28,
+      "cf_file_type_group": {
+        "id": 1
+      }
+    },
+    {
+      "id": 31,
+      "cf_file_type_group": {
+        "id": 2
+      }
+    },
+    {
+      "id": 32,
+      "cf_file_type_group": {
+        "id": 2
+      }
+    },
+    {
+      "id": 33,
+      "cf_file_type_group": {
+        "id": 3
+      }
+    },
+    {
+      "id": 34,
+      "cf_file_type_group": {
+        "id": 3
+      }
+    },
+    {
+      "id": 35,
+      "cf_file_type_group": {
+        "id": 3
+      }
+    },
+    {
+      "id": 36,
+      "cf_file_type_group": {
+        "id": 3
+      }
+    },
+    {
+      "id": 38,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 40,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 44,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 45,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 46,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 47,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 48,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 50,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 52,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 53,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 54,
+      "cf_file_type_group": {
+        "id": 6
+      }
+    },
+    {
+      "id": 55,
+      "cf_file_type_group": {
+        "id": 6
+      }
+    },
+    {
+      "id": 56,
+      "cf_file_type_group": {
+        "id": 6
+      }
+    },
+    {
+      "id": 57,
+      "cf_file_type_group": {
+        "id": 6
+      }
+    },
+    {
+      "id": 61,
+      "cf_file_type_group": {
+        "id": 6
+      }
+    },
+    {
+      "id": 62,
+      "cf_file_type_group": {
+        "id": 6
+      }
+    },
+    {
+      "id": 63,
+      "cf_file_type_group": {
+        "id": 2
+      }
+    },
+    {
+      "id": 64,
+      "cf_file_type_group": {
+        "id": 6
+      }
+    },
+    {
+      "id": 65,
+      "cf_file_type_group": {
+        "id": 3
+      }
+    },
+    {
+      "id": 66,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 67,
+      "cf_file_type_group": {
+        "id": 7
+      }
+    },
+    {
+      "id": 68,
+      "cf_file_type_group": {
+        "id": 3
+      }
+    },
+    {
+      "id": 69,
+      "cf_file_type_group": {
+        "id": 6
+      }
+    },
+    {
+      "id": 70,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 71,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 72,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 73,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 74,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 75,
+      "cf_file_type_group": {
+        "id": 3
+      }
+    },
+    {
+      "id": 76,
+      "cf_file_type_group": {
+        "id": 3
+      }
+    },
+    {
+      "id": 77,
+      "cf_file_type_group": {
+        "id": 2
+      }
+    },
+    {
+      "id": 78,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 79,
+      "cf_file_type_group": {
+        "id": 7
+      }
+    },
+    {
+      "id": 80,
+      "cf_file_type_group": {
+        "id": 1
+      }
+    },
+    {
+      "id": 81,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 82,
+      "cf_file_type_group": {
+        "id": 3
+      }
+    },
+    {
+      "id": 83,
+      "cf_file_type_group": {
+        "id": 3
+      }
+    },
+    {
+      "id": 84,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 85,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 86,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 87,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 88,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 89,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 90,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 91,
+      "cf_file_type_group": {
+        "id": 7
+      }
+    },
+    {
+      "id": 92,
+      "cf_file_type_group": {
+        "id": 7
+      }
+    },
+    {
+      "id": 93,
+      "cf_file_type_group": {
+        "id": 3
+      }
+    },
+    {
+      "id": 94,
+      "cf_file_type_group": {
+        "id": 1
+      }
+    },
+    {
+      "id": 95,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 96,
+      "cf_file_type_group": {
+        "id": 1
+      }
+    },
+    {
+      "id": 97,
+      "cf_file_type_group": {
+        "id": 1
+      }
+    },
+    {
+      "id": 98,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 99,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 100,
+      "cf_file_type_group": {
+        "id": 7
+      }
+    },
+    {
+      "id": 101,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 102,
+      "cf_file_type_group": {
+        "id": 2
+      }
+    },
+    {
+      "id": 103,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 104,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 105,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 106,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 107,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 108,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 109,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 110,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 111,
+      "cf_file_type_group": {
+        "id": 1
+      }
+    },
+    {
+      "id": 112,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 113,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 114,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 115,
+      "cf_file_type_group": {
+        "id": 7
+      }
+    },
+    {
+      "id": 116,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 117,
+      "cf_file_type_group": {
+        "id": 7
+      }
+    },
+    {
+      "id": 118,
+      "cf_file_type_group": {
+        "id": 7
+      }
+    },
+    {
+      "id": 119,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 120,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 121,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 122,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 123,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 124,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 125,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 126,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 127,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 128,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 129,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 130,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 131,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 132,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 133,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 134,
+      "cf_file_type_group": {
+        "id": 4
+      }
+    },
+    {
+      "id": 135,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 136,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 137,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 138,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    },
+    {
+      "id": 139,
+      "cf_file_type_group": {
+        "id": 7
+      }
+    },
+    {
+      "id": 140,
+      "cf_file_type_group": {
+        "id": 7
+      }
+    },
+    {
+      "id": 141,
+      "cf_file_type_group": {
+        "id": 7
+      }
+    },
+    {
+      "id": 142,
+      "cf_file_type_group": {
+        "id": 7
+      }
+    },
+    {
+      "id": 143,
+      "cf_file_type_group": {
+        "id": 7
+      }
+    },
+    {
+      "id": 144,
+      "cf_file_type_group": {
+        "id": 6
+      }
+    },
+    {
+      "id": 145,
+      "cf_file_type_group": {
+        "id": 3
+      }
+    },
+    {
+      "id": 146,
+      "cf_file_type_group": {
+        "id": 5
+      }
+    }
+  ],
+  "cf_applications": [
+    {
+      "id": 1,
+      "cf_application_group": {
+        "id": 1
+      },
+      "os_type": 1,
+      "name": "Internet Explorer"
+    },
+    {
+      "id": 2,
+      "cf_application_group": {
+        "id": 1
+      },
+      "os_type": 1,
+      "name": "Opera"
+    },
+    {
+      "id": 3,
+      "cf_application_group": {
+        "id": 1
+      },
+      "os_type": 1,
+      "name": "Safari"
+    },
+    {
+      "id": 4,
+      "cf_application_group": {
+        "id": 1
+      },
+      "os_type": 1,
+      "name": "Mozilla Firefox"
+    },
+    {
+      "id": 5,
+      "cf_application_group": {
+        "id": 1
+      },
+      "os_type": 1,
+      "name": "Chrome"
+    },
+    {
+      "id": 6,
+      "cf_application_group": {
+        "id": 1
+      },
+      "os_type": 1,
+      "name": "SeaMonkey"
+    },
+    {
+      "id": 7,
+      "cf_application_group": {
+        "id": 1
+      },
+      "os_type": 1,
+      "name": "Maxthon"
+    },
+    {
+      "id": 8,
+      "cf_application_group": {
+        "id": 2
+      },
+      "os_type": 1,
+      "name": "Courier"
+    },
+    {
+      "id": 11,
+      "cf_application_group": {
+        "id": 2
+      },
+      "os_type": 1,
+      "name": "Outlook (Attachments)"
+    },
+    {
+      "id": 12,
+      "cf_application_group": {
+        "id": 2
+      },
+      "os_type": 1,
+      "name": "Outlook (Body)"
+    },
+    {
+      "id": 13,
+      "cf_application_group": {
+        "id": 2
+      },
+      "os_type": 1,
+      "name": "Mozilla Thunderbird"
+    },
+    {
+      "id": 14,
+      "cf_application_group": {
+        "id": 2
+      },
+      "os_type": 1,
+      "name": "Opera Mail"
+    },
+    {
+      "id": 15,
+      "cf_application_group": {
+        "id": 2
+      },
+      "os_type": 1,
+      "name": "Windows Live Mail"
+    },
+    {
+      "id": 16,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "AIM"
+    },
+    {
+      "id": 17,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "eBuddy"
+    },
+    {
+      "id": 18,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "ICQ"
+    },
+    {
+      "id": 19,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Skype"
+    },
+    {
+      "id": 20,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Windows Live Messenger "
+    },
+    {
+      "id": 21,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Yahoo! Messenger"
+    },
+    {
+      "id": 22,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "mIRC"
+    },
+    {
+      "id": 23,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "eMule"
+    },
+    {
+      "id": 24,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Kazaa"
+    },
+    {
+      "id": 25,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Shareaza"
+    },
+    {
+      "id": 26,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Morpheus"
+    },
+    {
+      "id": 27,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "DC++"
+    },
+    {
+      "id": 28,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "BitTorrent"
+    },
+    {
+      "id": 29,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Azureus"
+    },
+    {
+      "id": 30,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "BitComet"
+    },
+    {
+      "id": 31,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Dropbox (Client)"
+    },
+    {
+      "id": 32,
+      "cf_application_group": {
+        "id": 1
+      },
+      "os_type": 1,
+      "name": "K-Meleon"
+    },
+    {
+      "id": 33,
+      "cf_application_group": {
+        "id": 1
+      },
+      "os_type": 1,
+      "name": "AOL Desktop 9.6"
+    },
+    {
+      "id": 34,
+      "cf_application_group": {
+        "id": 1
+      },
+      "os_type": 1,
+      "name": "Aurora Firefox"
+    },
+    {
+      "id": 35,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Trillian"
+    },
+    {
+      "id": 36,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "LingoWare"
+    },
+    {
+      "id": 37,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Chit Chat For Facebook"
+    },
+    {
+      "id": 38,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Nimbuzz"
+    },
+    {
+      "id": 39,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Facebook Messenger"
+    },
+    {
+      "id": 40,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Microsoft Communicator 2007"
+    },
+    {
+      "id": 41,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Google Talk"
+    },
+    {
+      "id": 42,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Gaim"
+    },
+    {
+      "id": 43,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Pidgin"
+    },
+    {
+      "id": 44,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "LAN Chat Enterprise"
+    },
+    {
+      "id": 45,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "OpenTalk"
+    },
+    {
+      "id": 46,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "TurboIRC"
+    },
+    {
+      "id": 47,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Twhirl"
+    },
+    {
+      "id": 48,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "WinSent Messenger"
+    },
+    {
+      "id": 49,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Pink Notes Plus"
+    },
+    {
+      "id": 50,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "fTalk"
+    },
+    {
+      "id": 51,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "XChat"
+    },
+    {
+      "id": 52,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "MyChat"
+    },
+    {
+      "id": 53,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "MySpace IM"
+    },
+    {
+      "id": 54,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "TweetDeck"
+    },
+    {
+      "id": 55,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "ooVoo"
+    },
+    {
+      "id": 56,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "InfraRecorder CD - DVD"
+    },
+    {
+      "id": 57,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "iTunes"
+    },
+    {
+      "id": 58,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Nokia PC Suite 2008"
+    },
+    {
+      "id": 59,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Samsung Kies"
+    },
+    {
+      "id": 60,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Sony Ericsson PC Companion"
+    },
+    {
+      "id": 61,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "HTC Sync for Android phones"
+    },
+    {
+      "id": 62,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Total Commander"
+    },
+    {
+      "id": 63,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Total Commander 64-bit"
+    },
+    {
+      "id": 64,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "uTorrent"
+    },
+    {
+      "id": 65,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "LimeWire"
+    },
+    {
+      "id": 66,
+      "cf_application_group": {
+        "id": 2
+      },
+      "os_type": 1,
+      "name": "SeaMonkey Mail"
+    },
+    {
+      "id": 67,
+      "cf_application_group": {
+        "id": 2
+      },
+      "os_type": 1,
+      "name": "AOL Mail"
+    },
+    {
+      "id": 68,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Pidgin Instant Messenger"
+    },
+    {
+      "id": 69,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Team Viewer"
+    },
+    {
+      "id": 70,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "LogMeIn Pro"
+    },
+    {
+      "id": 71,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "GoToMeeting"
+    },
+    {
+      "id": 72,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Nokia PC Suite 2008 Main"
+    },
+    {
+      "id": 73,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Nokia PC Suite 2011"
+    },
+    {
+      "id": 74,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Nokia PC Suite 2011 - Image Store"
+    },
+    {
+      "id": 75,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Nokia PC Suite 2011 - VideoTransfer"
+    },
+    {
+      "id": 76,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "EasyLock"
+    },
+    {
+      "id": 77,
+      "cf_application_group": {
+        "id": 2
+      },
+      "os_type": 1,
+      "name": "Windows Mail"
+    },
+    {
+      "id": 78,
+      "cf_application_group": {
+        "id": 2
+      },
+      "os_type": 1,
+      "name": "Outlook Express"
+    },
+    {
+      "id": 79,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Windows DVD Maker"
+    },
+    {
+      "id": 80,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "FileZilla"
+    },
+    {
+      "id": 81,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "iCloud Drive"
+    },
+    {
+      "id": 82,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Google Drive Client"
+    },
+    {
+      "id": 83,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "sendspace"
+    },
+    {
+      "id": 84,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "OneDrive (Skydrive)"
+    },
+    {
+      "id": 86,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "KT Olleh uCloud"
+    },
+    {
+      "id": 87,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Daum Cloud"
+    },
+    {
+      "id": 88,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Naver N Drive"
+    },
+    {
+      "id": 89,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "NateOn Messenger"
+    },
+    {
+      "id": 90,
+      "cf_application_group": {
+        "id": 2
+      },
+      "os_type": 1,
+      "name": "Mozilla Thunderbird (Body)"
+    },
+    {
+      "id": 91,
+      "cf_application_group": {
+        "id": 2
+      },
+      "os_type": 1,
+      "name": "GroupWise Client"
+    },
+    {
+      "id": 92,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "QQ international"
+    },
+    {
+      "id": 110,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Evernote"
+    },
+    {
+      "id": 116,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Naver LINE"
+    },
+    {
+      "id": 118,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Daum MyPeople"
+    },
+    {
+      "id": 120,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "ownCloud Client"
+    },
+    {
+      "id": 121,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Pogoplug Backup"
+    },
+    {
+      "id": 123,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "ALFTP"
+    },
+    {
+      "id": 124,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Pruna P2P"
+    },
+    {
+      "id": 125,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "KakaoTalk"
+    },
+    {
+      "id": 127,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "FileCloud Sync Client"
+    },
+    {
+      "id": 129,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "FTP Command"
+    },
+    {
+      "id": 143,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Box Sync"
+    },
+    {
+      "id": 150,
+      "cf_application_group": {
+        "id": 2
+      },
+      "os_type": 1,
+      "name": "Foxmail"
+    },
+    {
+      "id": 151,
+      "cf_application_group": {
+        "id": 2
+      },
+      "os_type": 1,
+      "name": "Zimbra Desktop Mail Client"
+    },
+    {
+      "id": 152,
+      "cf_application_group": {
+        "id": 2
+      },
+      "os_type": 1,
+      "name": "Eudora"
+    },
+    {
+      "id": 153,
+      "cf_application_group": {
+        "id": 2
+      },
+      "os_type": 1,
+      "name": "eM Client"
+    },
+    {
+      "id": 156,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Spark "
+    },
+    {
+      "id": 157,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Picasa"
+    },
+    {
+      "id": 160,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "SugarSync"
+    },
+    {
+      "id": 162,
+      "cf_application_group": {
+        "id": 1
+      },
+      "os_type": 1,
+      "name": "Tor"
+    },
+    {
+      "id": 163,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Novell Filr Desktop"
+    },
+    {
+      "id": 166,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Telegram Desktop"
+    },
+    {
+      "id": 168,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Amazon Drive"
+    },
+    {
+      "id": 172,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Microsoft Lync"
+    },
+    {
+      "id": 173,
+      "cf_application_group": {
+        "id": 1
+      },
+      "os_type": 1,
+      "name": "Adobe Flash Player"
+    },
+    {
+      "id": 175,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "GitHub Client"
+    },
+    {
+      "id": 177,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Remote Desktop Connection"
+    },
+    {
+      "id": 178,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Windows Apps"
+    },
+    {
+      "id": 179,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "MEGA"
+    },
+    {
+      "id": 180,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Yandex Disk"
+    },
+    {
+      "id": 181,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Mail.Ru Agent"
+    },
+    {
+      "id": 187,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "WinSCP"
+    },
+    {
+      "id": 237,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "DaouOffice Messenger"
+    },
+    {
+      "id": 238,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "HanbiroTalk"
+    },
+    {
+      "id": 239,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Slack"
+    },
+    {
+      "id": 243,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "hubiC"
+    },
+    {
+      "id": 246,
+      "cf_application_group": {
+        "id": 1
+      },
+      "os_type": 1,
+      "name": "FrontMotion Firefox"
+    },
+    {
+      "id": 248,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "WhatsApp Desktop"
+    },
+    {
+      "id": 250,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "iMazing"
+    },
+    {
+      "id": 252,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Wormhole Switch DSS"
+    },
+    {
+      "id": 254,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "OneDrive for Business"
+    },
+    {
+      "id": 257,
+      "cf_application_group": {
+        "id": 2
+      },
+      "os_type": 1,
+      "name": "IBM Lotus Notes (Body)"
+    },
+    {
+      "id": 258,
+      "cf_application_group": {
+        "id": 2
+      },
+      "os_type": 1,
+      "name": "IBM Lotus Notes (Attachments)"
+    },
+    {
+      "id": 259,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "HipChat"
+    },
+    {
+      "id": 262,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Blizz"
+    },
+    {
+      "id": 264,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "ADB"
+    },
+    {
+      "id": 270,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Webhard"
+    },
+    {
+      "id": 271,
+      "cf_application_group": {
+        "id": 1
+      },
+      "os_type": 1,
+      "name": "Swing"
+    },
+    {
+      "id": 272,
+      "cf_application_group": {
+        "id": 1
+      },
+      "os_type": 1,
+      "name": "Whale"
+    },
+    {
+      "id": 275,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Al-Drive"
+    },
+    {
+      "id": 276,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "GoToAssist"
+    },
+    {
+      "id": 278,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "AnyDesk"
+    },
+    {
+      "id": 281,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "VNC"
+    },
+    {
+      "id": 285,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "WeChat"
+    },
+    {
+      "id": 287,
+      "cf_application_group": {
+        "id": 1
+      },
+      "os_type": 1,
+      "name": "Pale Moon"
+    },
+    {
+      "id": 290,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Smart Switch"
+    },
+    {
+      "id": 293,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Send Anywhere"
+    },
+    {
+      "id": 297,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Viber"
+    },
+    {
+      "id": 300,
+      "cf_application_group": {
+        "id": 1
+      },
+      "os_type": 1,
+      "name": "Torch"
+    },
+    {
+      "id": 301,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Zoom"
+    },
+    {
+      "id": 304,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Station"
+    },
+    {
+      "id": 306,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "CuteFTP"
+    },
+    {
+      "id": 309,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Zalo"
+    },
+    {
+      "id": 311,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "TFTP"
+    },
+    {
+      "id": 312,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Microsoft Teams"
+    },
+    {
+      "id": 313,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Hangouts Chat"
+    },
+    {
+      "id": 314,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Unreal Commander"
+    },
+    {
+      "id": 315,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "PowerShell"
+    },
+    {
+      "id": 317,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "SideSync"
+    },
+    {
+      "id": 320,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "DameWare"
+    },
+    {
+      "id": 321,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Discord"
+    },
+    {
+      "id": 324,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "8x8 Virtual Office"
+    },
+    {
+      "id": 328,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Mattermost"
+    },
+    {
+      "id": 333,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Google Drive File Stream"
+    },
+    {
+      "id": 336,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "SimpleHelp Technician"
+    },
+    {
+      "id": 340,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Samsung DeX"
+    },
+    {
+      "id": 342,
+      "cf_application_group": {
+        "id": 1
+      },
+      "os_type": 1,
+      "name": "Brave"
+    },
+    {
+      "id": 344,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Rocket Chat"
+    },
+    {
+      "id": 346,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "SmarTTY"
+    },
+    {
+      "id": 347,
+      "cf_application_group": {
+        "id": 1
+      },
+      "os_type": 1,
+      "name": "Edge"
+    },
+    {
+      "id": 352,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Samsung Flow"
+    },
+    {
+      "id": 353,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "Remote Call"
+    },
+    {
+      "id": 354,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Ding Talk"
+    },
+    {
+      "id": 358,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "curl"
+    },
+    {
+      "id": 360,
+      "cf_application_group": {
+        "id": 4
+      },
+      "os_type": 1,
+      "name": "Notejoy"
+    },
+    {
+      "id": 362,
+      "cf_application_group": {
+        "id": 3
+      },
+      "os_type": 1,
+      "name": "Signal"
+    },
+    {
+      "id": 365,
+      "cf_application_group": {
+        "id": 5
+      },
+      "os_type": 1,
+      "name": "wget"
+    }
+  ],
+  "cf_term_groups": [
+    {
+      "id": 3
+    }
+  ],
+  "cf_file_name_groups": [
+    {
+      "id": 1
+    }
+  ],
+  "cf_regexs": [
+    {
+      "id": 2,
+      "hide": 1
+    },
+    {
+      "id": 3,
+      "hide": 1
+    },
+    {
+      "id": 5,
+      "hide": 0
+    }
+  ],
+  "cf_ndlp_blacklist_groups": [
+    {
+      "id": 1
+    }
+  ],
+  "cf_file_whitelist_groups": [
+    {
+      "id": 1
+    }
+  ],
+  "cf_domain_whitelist_groups": [
+    {
+      "id": 1
+    }
+  ],
+  "cf_url_whitelist_groups": [
+    {
+      "id": 1
+    }
+  ],
+  "cf_ndlp_domain_whitelist_groups": [
+    {
+      "id": 1
+    }
+  ],
+  "custom_cls": [],
+  "policy_type": {
+    "id": 2
+  },
+  "cf_hipaa_doc": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    }
+  ],
+  "cf_content_policy": [
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 1,
+        "cf_content_group": {
+          "id": 1
+        }
+      },
+      "cf_localizations": []
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 2,
+        "cf_content_group": {
+          "id": 1
+        }
+      },
+      "cf_localizations": []
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 6,
+        "cf_content_group": {
+          "id": 1
+        }
+      },
+      "cf_localizations": []
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 23,
+        "cf_content_group": {
+          "id": 1
+        }
+      },
+      "cf_localizations": []
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 5,
+        "cf_content_group": {
+          "id": 1
+        }
+      },
+      "cf_localizations": []
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 21,
+        "cf_content_group": {
+          "id": 1
+        }
+      },
+      "cf_localizations": []
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 19,
+        "cf_content_group": {
+          "id": 1
+        }
+      },
+      "cf_localizations": []
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 3,
+        "cf_content_group": {
+          "id": 1
+        }
+      },
+      "cf_localizations": []
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 4,
+        "cf_content_group": {
+          "id": 1
+        }
+      },
+      "cf_localizations": []
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 20,
+        "cf_content_group": {
+          "id": 1
+        }
+      },
+      "cf_localizations": []
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 8,
+        "cf_content_group": {
+          "id": 2
+        }
+      },
+      "cf_localizations": []
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 24,
+        "cf_content_group": {
+          "id": 2
+        }
+      },
+      "cf_localizations": []
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 11,
+        "cf_content_group": {
+          "id": 2
+        }
+      },
+      "cf_localizations": []
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 15,
+        "cf_content_group": {
+          "id": 2
+        }
+      },
+      "cf_localizations": []
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 22,
+        "cf_content_group": {
+          "id": 2
+        }
+      },
+      "cf_localizations": []
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 7,
+        "cf_content_group": {
+          "id": 2
+        }
+      },
+      "cf_localizations": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 12
+        },
+        {
+          "id": 13
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 23
+        },
+        {
+          "id": 28
+        },
+        {
+          "id": 41
+        },
+        {
+          "id": 43
+        },
+        {
+          "id": 44
+        },
+        {
+          "id": 46
+        },
+        {
+          "id": 47
+        },
+        {
+          "id": 54
+        },
+        {
+          "id": 55
+        }
+      ]
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 9,
+        "cf_content_group": {
+          "id": 2
+        }
+      },
+      "cf_localizations": [
+        {
+          "id": 2
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 24
+        },
+        {
+          "id": 61
+        },
+        {
+          "id": 62
+        },
+        {
+          "id": 63
+        },
+        {
+          "id": 64
+        },
+        {
+          "id": 65
+        },
+        {
+          "id": 66
+        },
+        {
+          "id": 67
+        },
+        {
+          "id": 68
+        },
+        {
+          "id": 69
+        },
+        {
+          "id": 70
+        }
+      ]
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 10,
+        "cf_content_group": {
+          "id": 2
+        }
+      },
+      "cf_localizations": [
+        {
+          "id": 4
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        },
+        {
+          "id": 20
+        },
+        {
+          "id": 21
+        },
+        {
+          "id": 24
+        },
+        {
+          "id": 25
+        },
+        {
+          "id": 26
+        },
+        {
+          "id": 27
+        },
+        {
+          "id": 30
+        },
+        {
+          "id": 31
+        },
+        {
+          "id": 32
+        },
+        {
+          "id": 33
+        },
+        {
+          "id": 34
+        },
+        {
+          "id": 35
+        },
+        {
+          "id": 36
+        },
+        {
+          "id": 37
+        },
+        {
+          "id": 38
+        },
+        {
+          "id": 39
+        },
+        {
+          "id": 40
+        },
+        {
+          "id": 42
+        },
+        {
+          "id": 47
+        },
+        {
+          "id": 48
+        },
+        {
+          "id": 49
+        },
+        {
+          "id": 50
+        },
+        {
+          "id": 51
+        },
+        {
+          "id": 52
+        },
+        {
+          "id": 53
+        },
+        {
+          "id": 56
+        },
+        {
+          "id": 58
+        },
+        {
+          "id": 59
+        }
+      ]
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 12,
+        "cf_content_group": {
+          "id": 2
+        }
+      },
+      "cf_localizations": [
+        {
+          "id": 1
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 11
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        },
+        {
+          "id": 20
+        },
+        {
+          "id": 25
+        },
+        {
+          "id": 54
+        },
+        {
+          "id": 57
+        },
+        {
+          "id": 60
+        }
+      ]
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 13,
+        "cf_content_group": {
+          "id": 2
+        }
+      },
+      "cf_localizations": [
+        {
+          "id": 2
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 13
+        },
+        {
+          "id": 22
+        }
+      ]
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 14,
+        "cf_content_group": {
+          "id": 2
+        }
+      },
+      "cf_localizations": [
+        {
+          "id": 2
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 13
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        },
+        {
+          "id": 20
+        },
+        {
+          "id": 22
+        },
+        {
+          "id": 27
+        },
+        {
+          "id": 41
+        }
+      ]
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 16,
+        "cf_content_group": {
+          "id": 2
+        }
+      },
+      "cf_localizations": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 13
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 41
+        },
+        {
+          "id": 54
+        },
+        {
+          "id": 57
+        }
+      ]
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 17,
+        "cf_content_group": {
+          "id": 2
+        }
+      },
+      "cf_localizations": [
+        {
+          "id": 1
+        },
+        {
+          "id": 11
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 22
+        },
+        {
+          "id": 31
+        },
+        {
+          "id": 34
+        },
+        {
+          "id": 39
+        },
+        {
+          "id": 54
+        },
+        {
+          "id": 59
+        }
+      ]
+    },
+    {
+      "name": "Predefined Policy",
+      "cf_content": {
+        "id": 18,
+        "cf_content_group": {
+          "id": 2
+        }
+      },
+      "cf_localizations": [
+        {
+          "id": 6
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 24
+        },
+        {
+          "id": 27
+        },
+        {
+          "id": 41
+        },
+        {
+          "id": 44
+        },
+        {
+          "id": 45
+        },
+        {
+          "id": 47
+        }
+      ]
+    }
+  ],
+  "cf_applications_extended": [
+    {
+      "id": 1,
+      "os_type": 1,
+      "name": "Notepad"
+    },
+    {
+      "id": 2,
+      "os_type": 1,
+      "name": "Microsoft Word"
+    },
+    {
+      "id": 3,
+      "os_type": 1,
+      "name": "Microsoft Excel"
+    },
+    {
+      "id": 4,
+      "os_type": 1,
+      "name": "Microsoft PowerPoint"
+    },
+    {
+      "id": 5,
+      "os_type": 1,
+      "name": "Microsoft Access"
+    },
+    {
+      "id": 6,
+      "os_type": 1,
+      "name": "Microsoft OneNote"
+    },
+    {
+      "id": 7,
+      "os_type": 1,
+      "name": "Notepad++"
+    },
+    {
+      "id": 8,
+      "os_type": 1,
+      "name": "Sticky Notes"
+    },
+    {
+      "id": 9,
+      "os_type": 1,
+      "name": "Command Line"
+    },
+    {
+      "id": 22,
+      "os_type": 1,
+      "name": "Git"
+    }
+  ],
+  "departments": [
+    {
+      "id": 1
+    }
+  ],
+  "groups_epp": [],
+  "computers": [],
+  "users": []
+}t

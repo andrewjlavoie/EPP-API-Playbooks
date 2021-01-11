@@ -47,7 +47,7 @@ def del_ndlp_domain_whitelist_group(base_url, jwt, ndlp_id):
 
 # tools
 
-def get_name_id_map(base_url, jwt):
+def get_whitelistgroups_id_name_map(base_url, jwt):
     #get all
     all_wl = get_ndlp_domain_whitelist_groups(base_url, jwt)
     name_to_id = {}

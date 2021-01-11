@@ -1,8 +1,8 @@
 ---
-- name: get 200
+- name: Use Ansible to GET HTTP 200 response from MC API
   hosts: localhost
   tasks:
-  - name: debug
+  - name: debug -- hostname
     debug:
       msg: "{{ inventory_hostname }}"
 
