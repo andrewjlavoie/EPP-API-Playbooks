@@ -1,0 +1,14 @@
+---
+- name: Sync Whitelist to EPP from Github
+  hosts: all
+  tasks:
+    - name: Ensure repo is downloaded
+      git:
+        repo: https://github.com/andrewjlavoie/EPP-API-Playbooks
+        clone: Yes
+        dest: ~/epp-api/
+
+    - name: Python Script
+      script: ~/epp-api/sync_whitelists.py
+      args:
+        executable: python3

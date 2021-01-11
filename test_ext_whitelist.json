@@ -1,4 +1,15 @@
 {
-    "api-test-dpi-whitelist1": ["*cososys.com", "*google.com"],
-    "api-test-dpi-whitelist2": ["*youtube.com", "*duckduckgo.com"]
+    "api-test-dpi-whitelist1": [
+        "*cososys.com", 
+        "*google.com",
+        "*wsj.com",
+        "*reddit.com",
+        "wikipedia.org"
+    ],
+    "api-test-dpi-whitelist2": [
+        "*youtube.com", 
+        "*duckduckgo.com",
+        "*yahoo.com",
+        "*internal.corp.vpn.com"
+    ]
 }
