@@ -7,13 +7,13 @@ import json
 import requests
 
 from epp_auth import *
-from epp_ndlp_doman_whitelist_group import *
+from epp_ndlp_doman_whitelist_group import get_name_id_map, patch_ndlp_domain_whitelist_group
 
 if __name__ == "__main__":
     epp_api_conf = configparser.ConfigParser()
     epp_api_conf.read('./epp_config.ini')
 
-    #grab whiteist from github
+    #grab whitelist from github
     raw_wl_content = requests.get(epp_api_conf['policy']['whitelist_url'])
     new_wl_content = json.loads(raw_wl_content.text)
 
