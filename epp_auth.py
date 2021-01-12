@@ -1,7 +1,7 @@
 import requests
 
 def get_token(base_url, username, password):
-    ''' returns value from {'token': 'xxx'} '''
+    ''' returns value from k,v {'token': 'xxx'} '''
     if base_url[-1] == '/':
         base_url = base_url[:-1]
     response = requests.post(
