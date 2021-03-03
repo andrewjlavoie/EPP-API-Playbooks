@@ -14,7 +14,7 @@ from epp_otp import post_otp
 
 if __name__ == "__main__":
     epp_api_conf = configparser.ConfigParser()
-    epp_api_conf.read('./epp_config.ini')
+    epp_api_conf.read('./epp-api/epp_config.ini')
 
     #auth to epp and get token
     print('Authenticating to EPP MC -- Get JWT')
