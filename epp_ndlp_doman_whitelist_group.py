@@ -1,6 +1,6 @@
 import requests
 
-#api calls
+# api calls
 
 def get_ndlp_domain_whitelist_groups(base_url, jwt):
     '''Gets a list of Ndlp Domain Whitelist Groups'''
