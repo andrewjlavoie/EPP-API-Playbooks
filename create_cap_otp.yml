@@ -1,0 +1,15 @@
+---
+- name: Create new CAP OTP
+  hosts: all
+  tasks:
+    - name: Ensure repo is downloaded
+      git:
+        repo: https://github.com/andrewjlavoie/EPP-API-Playbooks
+        clone: Yes
+        force: Yes
+        dest: ~/epp-api/
+
+    - name: Python Script
+      command: python3 ~/epp-api/create_cap_otp.py {{ duration }} {{ computer }} {{ justification }}
+      args:
+        chdir: ~/
