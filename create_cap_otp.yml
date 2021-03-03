@@ -10,6 +10,6 @@
         dest: ~/epp-api/
 
     - name: Python Script
-      command: python3 ~/epp-api/create_cap_otp.py {{ duration }} {{ computer }} {{ justification }}
+      command: python3 ~/epp-api/create_cap_otp.py {{ duration | quote }} {{ computer }} {{ justification | quote }}
       args:
         chdir: ~/
